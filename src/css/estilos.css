@@ -83,7 +83,7 @@ body{
     line-height: 1.6; 
 }
 
-.btn-comprar{
+.btn-comprar, .btn-plataforma{
     background-color: rgba(255, 255, 255, .1);
     border: 0.5px solid #fff;
     border-radius: 4px;
@@ -96,8 +96,83 @@ body{
     transition: all .3s ease-in;
 }
 
+.btn-plataforma{
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
 .btn-comprar:hover{
     background-color: #fff;
     color: #000;
+}
+
+.compre-ja  .capa-do-jogo{
+    width: 270px;
+}
+
+.compre-ja{
+    background-color: brown;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+}
+
+.compre-ja .titulo{
+    font-family: 'ChaletComprime', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.compre-ja .cartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    width: 50%;
+    border-radius: 10px;
+    padding: 80px;
+    gap: 40px;
+}
+
+.compre-ja .informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.compre-ja .informacoes h3{
+    font-family: 'ChaletComprime', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.compre-ja .informacoes p{
+    color: #e8e8e8;
+    font-family: 'Chalet',sans-serif ;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.compre-ja .informacoes .plataformas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.compre-ja .btn-plataforma .plataformas{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all .3s easein;
+}
+
+.compre-ja .btn-plataforma .plataformas li{
+    
 }
 
