@@ -169,7 +169,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    transition: all .3s easein;
+    transition: all .3s ease-in;
 }
 
 .compre-ja .btn-plataforma .plataformas li{
