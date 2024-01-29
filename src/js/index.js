@@ -9,11 +9,15 @@ Objetivo 1 - quando o usuário clicar no botão de seleção de plataformas deve
 
     Passo 4 - quando o usuário clicar, adicionar a classe ativo na listagem de plataformas dentro do botão pra que o conteúdo apareça
 
-
 Objetivo 2 - caso a lista de botões de plataformas já esteja aparecendo e o usuário clicar em cima do botão, o conteúdo deve ser escondido
 
     Passo 1 - verificar se o botão já esta aberto, se sim, devemos remover a classe ativo pra que ele esconda o conteúdo novamente
 */
 
 
+const botao = document.querySelector(".btn-plataforma");
+const elementoPlataformas = document.querySelector(".btn-plataforma .plataformas");
 
+botao.addEventListener("click", () => {
+    elementoPlataformas.classList.toggle("ativo");
+});
